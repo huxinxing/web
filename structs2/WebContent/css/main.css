@@ -1,0 +1,34 @@
+header,#divHeader,footer{
+	position: relative;
+	margin:auto 0;
+	margin-left: 10px;
+	margin-right: 10px;
+	min-height: 50px;
+	border:1px solid #ccc;
+	border-radius:5px;
+}
+.ml_layout{
+	position: relative;
+	float: left;
+	padding: 10px;
+	padding-top: 5px;
+}
+#ml_left{
+	width: 25%;
+	border:1px solid #ccc;
+	border-radius:5px;
+	min-height: 200px;
+}
+#ml_right{
+	width: 75%;
+	border:1px solid #ccc;
+	border-radius:5px;
+	min-height: 200px;
+}
+footer{
+	clear: left;
+}
+#divHeader{
+	overflow: auto;
+}
+

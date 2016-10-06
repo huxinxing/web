@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+          "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+          "http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>
+   <!-- 上传文件最大长度，10M -->
+   <constant name="struts.multipart.maxSize" value="10485760"></constant>
+   
+   <!-- 配置struts2处理后缀名 -->
+   <constant name="struts.action.extension" value="xhtml,do,action"></constant>
+   
+   <!-- 是否支持动态方法调用，应关闭 -->
+   <constant name="struts.enable.DynamicMethodInvocation" value="false" />
+   
+    <!-- 设置setCharacterEncoding配置默认编码集 -->
+    <constant name="struts.i18n.encoding" value="UTF-8" />
+    
+    <package name="default" namespace="/" extends="struts-default">
+    	<action name="login" class="com.structs.action">
+    	</action>
+    </package> 
+
+</struts>
